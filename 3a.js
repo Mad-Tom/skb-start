@@ -1,8 +1,7 @@
-const express = require('express');
-const bodyParser = require('body-parser')
-const cors = require('cors');
-const fetch = require('isomorphic-fetch');
-
+import  express from 'express';
+import  bodyParser from 'body-parser';
+import  cors from 'cors';
+import  fetch from 'isomorphic-fetch';
 
 const app = express();
 app.use(cors());
