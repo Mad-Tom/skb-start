@@ -39,4 +39,6 @@ app.get('/*', (req, res) => {
 	res.send(JSON.stringify(r));
 });
 
-app.listen(3000, () => console.log(`open localhost:3000`));
+app.listen(3000, () => {
+  console.log('Your app listening on port 3000!');
+});
