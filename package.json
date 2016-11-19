@@ -52,6 +52,7 @@
     "rollup": "^0.36.3",
     "rollup-plugin-babel": "^2.6.1",
     "nodemon": "^1.11.0",
+    "body-parser": "^1.15.2",
     "sinon": "^2.0.0-pre.3"
   },
   "scripts": {
